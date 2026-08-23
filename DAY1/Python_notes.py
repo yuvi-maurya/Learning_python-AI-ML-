@@ -6,7 +6,8 @@
 # They provide a way for humans to communicate with computers and create software applications, scripts, 
 # or other sets of instructions that a computer can execute.
 
-# Machine code is the lowest-level programming language, consisting of binary code that the computer's hardware can directly execute.
+# Machine code is the lowest-level programming language, consisting of binary code that the computer's 
+# hardware can directly execute.
 
 # Machine code is specific to a particular computer architecture and is not easily readable or writable by humans.
 
