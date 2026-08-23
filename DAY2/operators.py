@@ -33,6 +33,7 @@ g = a % b  # Modulus
 h = a ** b # Exponentiation
 i = a // b # Floor Division
 
+
 # 2. Relational/Comparison Operators:
 # These operators are used to compare two values and return a boolean result (True or False).
 #    ( == ) Equal to: Returns True if both operands are equal.
@@ -43,14 +44,14 @@ i = a // b # Floor Division
 #    ( >= ) Greater than or equal to: Returns True if the first operand is greater than or equal to the second.
 
 #example of relational/comparison operators in Python:
-x = 10
-y = 5
-z = x == y  # Equal to
-w = x != y  # Not equal to
-v = x < y   # Less than
-u = x > y   # Greater than
-t = x <= y  # Less than or equal to
-s = x >= y  # Greater than or equal to
+# x = 10
+# y = 5
+# z = x == y  # Equal to
+# w = x != y  # Not equal to
+# v = x < y   # Less than
+# u = x > y   # Greater than
+# t = x <= y  # Less than or equal to
+# s = x >= y  # Greater than or equal to
 
 # 3. Assignment Operators:
 # These operators are used to assign values to variables.
