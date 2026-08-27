@@ -376,4 +376,81 @@ for num in range(1, 51):
 
 
 
+# Question 
+# 26. Star pattern — simple pyramid:
 
+# *
+# **
+# ***
+# ****
+
+num = int(input("Enter number"))
+
+for i in range(1, num + 1):
+    print("*" * i)
+
+
+#tarika dusraa
+
+n = int(input("Kitni rows chahiye: "))
+
+for i in range(1, n + 1):
+    for j in range(i):
+        print("*", end="")   
+    print()  
+
+
+
+# Question 27. Number pyramid:
+# 1
+# 12
+# 123
+# 1234
+n = int(input("Kitni rows chahiye: "))
+for i in range(1, n + 1):
+    for j in range(1, i + 1):
+        print(j, end="")   
+    print() 
+
+
+# Question 28 .Inverted star pyramid:
+# ****
+# ***
+# **
+# *
+
+
+n = int(input("Kitni rows chahiye: "))
+for i in range(n , 0 , -1):
+    print("*" * i)
+
+
+
+# Question 29. Square pattern (N x N grid of *).
+
+
+n = int(input("Size enter karo: "))
+
+for i in range(n):
+    for j in range(n):
+        print("*", end="")
+    print()
+
+
+
+# Question 30. Diamond pattern (upar aur neeche mirror pyramid).
+
+
+n = int(input("Size enter karo: "))
+
+# Upper half (pyramid, including middle row)
+for i in range(1, n + 1):
+    spaces = " " * (n - i)
+    stars = "*" * (2 * i - 1)
+    print(spaces + stars)
+
+# Lower half (inverted pyramid, mirror)
+for i in range(n - 1, 0, -1):
+    spaces = " " * (n - i)
+    stars = "*" * (2 * i - 1)
+    print(spaces + stars)
